@@ -13,6 +13,9 @@
     <meta property="og:image" content="assets/UCSF_Box.jpg" />
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1050px)" href="css/mid.css">
+    <link rel="stylesheet" media="screen and (max-width: 805px)" href="css/small.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="css/mobile.css">
     <link rel="icon" href="assets/favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
 </head>
@@ -22,11 +25,13 @@
 
     <div id="header">
         <div class="band">
-            <div class="header-left">
-                <a href="http://ai-4-all.org" target="_blank"><img src="assets/AI4ALL_Logo.png" /></a>
-            </div>
-            <div class="header-right">
-                <a href="https://www.ucsf.edu/" target="_blank"><img src="assets/UCSF_Logo.png" /></a>
+            <div class="header-icons">
+                <div class="header-left">
+                    <a href="http://ai-4-all.org" target="_blank"><img src="assets/AI4ALL_Logo.png" /></a>
+                </div>
+                <div class="header-right">
+                    <a href="https://www.ucsf.edu/" target="_blank"><img src="assets/UCSF_Logo.png" /></a>
+                </div>
             </div>
             <div class="header-center">
                 <h1>UCSF AI4ALL</h1>
@@ -37,12 +42,13 @@
 
     <div id="navigation">
         <div class="band">
-            <ul>
+            <ul class="responsive-nav" id="responsiveNav">
                 <li><a href="index.html">UCSF AI4ALL</a></li>
                 <li><a href="about.html">Program Overview</a></li>
                 <li><a href="people.html">People</a></li>
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="apply.html">Apply</a></li>
+                <li class="icon"><a href="javascript:void(0);" onclick="toggleNav()">&#9776;</a></li>
             </ul>
         </div>
         <div class="clear"></div>
@@ -125,6 +131,8 @@
         </div>
         <div class="clear"></div>
     </div>
+
+<script src="js/nav-toggle.js"></script>
 
 </body>
 </html>

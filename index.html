@@ -15,6 +15,9 @@
     <meta property="og:image" content="assets/UCSF_Box.jpg" />
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1050px)" href="css/mid.css">
+    <link rel="stylesheet" media="screen and (max-width: 805px)" href="css/small.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="css/mobile.css">
     <link rel="icon" href="assets/favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
 </head>
@@ -24,11 +27,13 @@
 
     <div id="header">
         <div class="band">
-            <div class="header-left">
-                <a href="http://ai-4-all.org" target="_blank"><img src="assets/AI4ALL_Logo.png" /></a>
-            </div>
-            <div class="header-right">
-                <a href="https://www.ucsf.edu/" target="_blank"><img src="assets/UCSF_Logo.png" /></a>
+            <div class="header-icons">
+                <div class="header-left">
+                    <a href="http://ai-4-all.org" target="_blank"><img src="assets/AI4ALL_Logo.png" /></a>
+                </div>
+                <div class="header-right">
+                    <a href="https://www.ucsf.edu/" target="_blank"><img src="assets/UCSF_Logo.png" /></a>
+                </div>
             </div>
             <div class="header-center">
                 <h1>UCSF AI4ALL</h1>
@@ -39,12 +44,13 @@
 
     <div id="navigation">
         <div class="band">
-            <ul>
+            <ul class="responsive-nav" id="responsiveNav">
                 <li><a href="index.html">UCSF AI4ALL</a></li>
                 <li><a href="about.html">Program Overview</a></li>
                 <li><a href="people.html">People</a></li>
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="apply.html">Apply</a></li>
+                <li class="icon"><a href="javascript:void(0);" onclick="toggleNav()">&#9776;</a></li>
             </ul>
         </div>
         <div class="clear"></div>
@@ -60,24 +66,26 @@
             <a href="about.html">Learn More About The 2019 Summer Program</a>
         </div>
         <div class="band front">
-            <div class="column-1">
-                <img src="assets/about.jpg" />
-                <h1>About</h1>
-                <!-- Replace below placeholder text with correct information for your program -->
-                <p>Our 3-week non-residential summer program, <b>July 8 - 29th</b>, exposes Bay Area high school students from underrepresented groups to the exciting field of AI with a focus on biomedical applications.</p>
-                <p><a href="about.html">Learn More</a></p>
-            </div>
-            <div class="column-2">
-                <img src="assets/hands.jpg" />
-                <h1>Hands-on Learning</h1>
-                <p>Participants engage with academics and professionals in the field to learn about cutting-edge ideas, such as AI applied to biology and healthcare.</p>
-                <p><a href="people.html">Learn More</a></p>
-            </div>
-            <div class="column-3">
-                <img src="assets/apply.jpg" />
-                <h1>Apply</h1>
-                <p>Applications for the 2019 summer program go live on 2/15/2019!</p>
-                <p><a href="apply.html">Learn More</a></p>
+            <div class="columns">
+                <div class="column-1">
+                    <img src="assets/about.jpg" />
+                    <h1>About</h1>
+                    <!-- Replace below placeholder text with correct information for your program -->
+                    <p>Our 3-week non-residential summer program, <b>July 8 - 29th</b>, exposes Bay Area high school students from underrepresented groups to the exciting field of AI with a focus on biomedical applications.</p>
+                    <p><a href="about.html">Learn More</a></p>
+                </div>
+                <div class="column-2">
+                    <img src="assets/hands.jpg" />
+                    <h1>Hands-on Learning</h1>
+                    <p>Participants engage with academics and professionals in the field to learn about cutting-edge ideas, such as AI applied to biology and healthcare.</p>
+                    <p><a href="people.html">Learn More</a></p>
+                </div>
+                <div class="column-3">
+                    <img src="assets/apply.jpg" />
+                    <h1>Apply</h1>
+                    <p>Applications for the 2019 summer program go live on 2/15/2019!</p>
+                    <p><a href="apply.html">Learn More</a></p>
+                </div>
             </div>
             <div class="clear"></div>
 
@@ -119,6 +127,8 @@
         </div>
         <div class="clear"></div>
     </div>
+
+<script src="js/nav-toggle.js"></script>
 
 </body>
 </html>
