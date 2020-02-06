@@ -263,6 +263,33 @@ hr {
     font-weight: 200;
 }
 
+.press {
+    width: 450px;
+    margin-right: 20px;
+    #float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.press img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.press .name {
+    margin-top: 10px;
+    font-size: 21px;
+}
+
+.press .position {
+    margin-top: 40px;
+    font-weight: 200;
+}
+
+
 .apply-box {
     display: block;
     background-color: #052049;
