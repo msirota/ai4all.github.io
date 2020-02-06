@@ -266,7 +266,7 @@ hr {
 .press {
     width: 250px;
     margin-right: 20px;
-    #float: left;
+    float: left;
     margin-top: 20px;
     margin-bottom: 20px;
 }
