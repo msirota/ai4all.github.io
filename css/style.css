@@ -273,8 +273,8 @@ hr {
 
 .press img {
     width: 150px;
-    height: 150px;
-    float: left;
+    height: 100px;
+    #float: left;
     margin-left: 20px;
     margin-right: 20px;
 }
