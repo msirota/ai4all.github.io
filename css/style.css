@@ -284,6 +284,10 @@ hr {
     font-size: 21px;
 }
 
+.press .title a[target="_blank"]:after {
+    content: " (external)";
+}
+
 .press .position {
     margin-top: 40px;
     font-weight: 200;
