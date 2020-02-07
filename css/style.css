@@ -361,7 +361,8 @@ hr {
 }
 
 #footer a[target="_blank"]:after {
-    content: " (external)";
+    #content: " (external)";
+    content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
 }
 
 #footer a:hover {
