@@ -360,6 +360,10 @@ hr {
     text-decoration: none;
 }
 
+#footer a[target="_blank"]:after {
+    content: " (external)";
+}
+
 #footer a:hover {
     text-decoration: underline;
 }
