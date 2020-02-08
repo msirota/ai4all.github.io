@@ -38,11 +38,6 @@ hr {
 }
 
 
-a[target="_blank"]:after {
-    #content: " (external)";
-    content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
-}
-
 #topband {
     width: 100%;
     height: 8px;
@@ -150,6 +145,12 @@ a[target="_blank"]:after {
 #content a:hover {
     color: #18A3AC;
 }
+
+#content a[target="_blank"]:after {
+    #content: " (external)";
+    content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
+}
+
 
 #content ul {
     margin-left: 40px;
