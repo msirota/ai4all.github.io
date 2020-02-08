@@ -294,9 +294,10 @@ a[target="_blank"]:after {
     content: " (external)";
 }
 
-.press .position {
+.press .summary {
     margin-top: 40px;
     font-weight: 200;
+    font-style: italic;
 }
 
 
