@@ -37,6 +37,7 @@ hr {
     width: 200px;
 }
 
+
 #topband {
     width: 100%;
     height: 8px;
@@ -144,6 +145,12 @@ hr {
 #content a:hover {
     color: #18A3AC;
 }
+
+#content a[target="_blank"]:after {
+    #content: " (external)";
+    content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
+}
+
 
 #content ul {
     margin-left: 40px;
@@ -263,6 +270,38 @@ hr {
     font-weight: 200;
 }
 
+#press {
+    width: 250px;
+    margin-right: 20px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#press img {
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#press .title {
+    margin-top: 10px;
+    font-size: 21px;
+}
+
+#press .title a[target="_blank"]:after {
+    content: " (external)";
+}
+
+.press .summary {
+    margin-top: 40px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+
 .apply-box {
     display: block;
     background-color: #052049;
@@ -327,6 +366,11 @@ hr {
 #footer a {
     color: #178CCB;
     text-decoration: none;
+}
+
+#footer a[target="_blank"]:after {
+    #content: " (external)";
+    content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
 }
 
 #footer a:hover {
