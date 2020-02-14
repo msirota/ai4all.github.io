@@ -270,7 +270,7 @@ hr {
     font-weight: 200;
 }
 
-#press {
+.press {
 #    width: 200px;
     margin-right: 20px;
 #    float: left;
@@ -278,7 +278,7 @@ hr {
     margin-bottom: 30px;
 }
 
-#press img {
+.press img {
     width: 800px;
 #    height: 100px;
 #    float: left;
@@ -287,12 +287,12 @@ hr {
     margin-right: 20px;
 }
 
-#press .title {
+.press .title {
     margin-top: 10px;
     font-size: 21px;
 }
 
-#press .title a[target="_blank"]:after {
+.press .title a[target="_blank"]:after {
     content: " (external)";
 }
 
