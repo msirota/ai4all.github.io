@@ -276,7 +276,7 @@ hr {
     float: left;
 */
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 
@@ -303,6 +303,7 @@ hr {
 
 .press .summary {
     margin-top: 10px;
+    margin-bottom: 50px;
     font-weight: 200;
     font-style: italic;
 }
