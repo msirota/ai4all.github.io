@@ -63,6 +63,10 @@
     width: 100%;
 }
 
+#press img {
+    width: 100%;
+}
+
 #footer .column-1 {
     float: left;
     width: 400px;
