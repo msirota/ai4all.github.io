@@ -271,17 +271,21 @@ hr {
 }
 
 .press {
-#    width: 200px;
     margin-right: 20px;
-#    float: left;
+/*    width: 200px;
+    float: left;
+*/
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
+
 .press img {
+/*    
     width: 800px;
-#    height: 100px;
-#    float: left;
+    height: 100px;
+    float: left;
+*/
     margin-top: 60px;
     margin-left: 20px;
     margin-right: 20px;
