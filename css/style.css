@@ -248,8 +248,8 @@ hr {
     width: 450px;
     margin-right: 20px;
     float: left;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .profile img {
@@ -266,32 +266,37 @@ hr {
 }
 
 .profile .position {
-    margin-top: 30px;
+    margin-top: 40px;
     font-weight: 200;
 }
 
-#press {
-    width: 250px;
+.press {
     margin-right: 20px;
+/*    width: 200px;
     float: left;
+*/
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-#press img {
-    width: 150px;
+
+.press img {
+/*    
+    width: 800px;
     height: 100px;
     float: left;
+*/
+    margin-top: 60px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-#press .title {
+.press .title {
     margin-top: 10px;
     font-size: 21px;
 }
 
-#press .title a[target="_blank"]:after {
+.press .title a[target="_blank"]:after {
     content: " (external)";
 }
 
