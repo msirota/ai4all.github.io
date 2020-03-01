@@ -311,7 +311,7 @@ hr {
 
 .apply-box {
     display: block;
-    background-color: #493805;
+    background-color: #052049;
     text-align: center;
     width: 100%;
     margin-left: auto;
@@ -326,7 +326,9 @@ hr {
     border-radius: 25px;
 }
 
-
+.apply-box a:hover {
+    color: #FFFFFF;
+}
 
 .schedule {
     width: 800px;
