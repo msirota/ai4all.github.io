@@ -326,6 +326,18 @@ hr {
     border-radius: 25px;
 }
 
+
+.apply-box a {
+    color: #FFFF00;
+    text-decoration: none;
+}
+
+.apply-box a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+
 .schedule {
     width: 800px;
 }
