@@ -118,7 +118,7 @@ hr {
     display: none;
 }
 
-.bulletin {
+#bulletin .message {
     background-color: #90BD31;
     color: #052049;
     text-align: center;
