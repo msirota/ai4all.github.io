@@ -69,6 +69,13 @@
     width: 100%;
 }
 
+#bulletin .message {
+    background-color: #90BD31;
+    color: #052049;
+    text-align: center;
+    width: 100%;
+}
+
 #footer .column-1 {
     float: left;
     width: 400px;
