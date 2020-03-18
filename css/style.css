@@ -118,6 +118,10 @@ hr {
     display: none;
 }
 
+#bulletin {
+    background-color: #90BD31;
+}
+
 #bulletin .message {
     background-color: #90BD31;
     color: #052049;
