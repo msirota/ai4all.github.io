@@ -120,6 +120,8 @@ hr {
 
 #bulletin {
     background-color: #90BD31;
+    text-align: center;
+    width: 100%
 }
 
 #bulletin p {
@@ -131,7 +133,8 @@ hr {
     background-color: #90BD31;
     color: #052049;
     text-align: center;
-    width: 800px
+    width: 800p;
+    position: relative;x
 }
 
 #content {
