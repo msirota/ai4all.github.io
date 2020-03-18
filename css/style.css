@@ -120,7 +120,10 @@ hr {
 
 #bulletin {
     background-color: #90BD31;
-    color: #052049;
+    text-align: center;
+}
+
+#bulletin p {
     text-align: center;
 }
 
