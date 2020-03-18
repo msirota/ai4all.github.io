@@ -120,12 +120,11 @@ hr {
 
 #bulletin {
     background-color: #90BD31;
-    text-align: center;
-    align-content: center;
 }
 
 #bulletin p {
     text-align: center;
+    display: block;
 }
 
 #bulletin .message {
