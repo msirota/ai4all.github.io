@@ -69,6 +69,11 @@
     width: 100%;
 }
 
+#bulletin {
+    background-color: #90BD31;
+    text-align: center;
+}
+
 #bulletin .message {
     background-color: #90BD31;
     color: #052049;
