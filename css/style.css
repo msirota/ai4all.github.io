@@ -134,7 +134,7 @@ hr {
     color: #052049;
     text-align: center;
     width: 800p;
-    position: relative;x
+    position: relative;
 }
 
 #content {
@@ -330,7 +330,7 @@ hr {
 
 .apply-box {
     display: block;
-    background-color: #f48024;
+    background-color: #052049; /* live page #f48024; */
     text-align: center;
     width: 100%;
     margin-left: auto;
