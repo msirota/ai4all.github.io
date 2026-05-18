@@ -1,3 +1,6 @@
+I updated the missing image `alt` attributes and added a descriptive `title` attribute to the `<iframe>` because `iframe` elements do not support `alt` attributes; `title` is the accessibility-appropriate equivalent. 
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,10 +43,10 @@
         <div class="band">
             <div class="header-icons">
                 <div class="header-left">
-                    <a href="https://ai-4-all.org" target="_blank"><img src="assets/AI4ALL_Logo.png" /></a>
+                    <a href="https://ai-4-all.org" target="_blank"><img src="assets/AI4ALL_Logo.png" alt="AI4ALL logo" /></a>
                 </div>
                 <div class="header-right">
-                    <a href="https://www.ucsf.edu/" target="_blank"><img src="assets/UCSF_Logo.png" /></a>
+                    <a href="https://www.ucsf.edu/" target="_blank"><img src="assets/UCSF_Logo.png" alt="UCSF logo" /></a>
                 </div>
             </div>
             <div class="header-center">
@@ -90,7 +93,7 @@
         <div class="band front">
             <div class="columns">
                 <div class="column-1">
-                    <img src="assets/about_ucsf.jpg" />
+                    <img src="assets/about_ucsf.jpg" alt="Students participating in a UCSF AI4ALL learning activity" />
                     <h1>About</h1>
                     <!-- Replace below placeholder text with correct information for your program -->
                     <p>This 10 week unpaid summer internship <!--, running <b>July 8th - 26th in 2026</b>,--> introduces motivated SFUSD high school students to real-world biomedical and health research using data and computation. 
@@ -98,13 +101,13 @@
                     <p><a href="about.html">Learn More</a></p>
                 </div>
                 <div class="column-2">
-                    <img src="assets/hands_ucsf.jpg" />
+                    <img src="assets/hands_ucsf.jpg" alt="Hands-on learning activity for students" />
                     <h1>Hands-on Learning</h1>
                     <p>Participants engage with academics and professionals in the field to learn about cutting-edge ideas, such as AI applied to biology and healthcare.</p>
                     <p><a href="people.html">Learn More</a></p>
                 </div>
                 <div class="column-3">
-                    <img src="assets/apply_ucsf.jpg" />
+                    <img src="assets/apply_ucsf.jpg" alt="Students learning about applying to UCSF AI4ALL" />
                     <h1>Apply</h1>
                     <p>Applications for the 2026 summer program are available now<!--will be available by March 2023--></p>
                     <p><a href="apply.html">Learn More</a></p>
@@ -115,7 +118,7 @@
 	    <!-- <div style="float: right; clear: right"> -->
 	    <div style="float: right;">
 		<iframe width="448" height="252" style="padding: 20px 0px 0px 20px;" 
-			src="https://www.youtube-nocookie.com/embed/f-5uPNwT68A" frameborder="0" allow="accelerometer; autoplay; 
+			src="https://www.youtube-nocookie.com/embed/f-5uPNwT68A" title="UCSF AI4ALL student appreciation video" frameborder="0" allow="accelerometer; autoplay; 
 			encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 			
 	        </iframe> <!-- for video to float right -->
@@ -169,3 +172,4 @@
 
 </body>
 </html>
+```
